@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microndas</title>
+    <script src="./index.js" defer></script>
+    <link href="./microonda.png" rel="icon">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Microondas</h1>
+    <img id="imagen" src="apagado.png">
+    <p id="estado">APAGADO</p>
+    <button onclick="abrirPuerta()">Abrir Puerta</button>
+    <button onclick="cerrarPuerta()">Cerrar Puerta</button>
+    <button onclick="empezarACocinar()">Empezar a Cocinar</button>
+    <button onclick="apagar()">Apagar</button>
+    <button onclick="encender()">Encender</button>
+    <input id="tiempo" type="number" min="1" max="600">
+    <button onclick="establecerTiempo()">Establecer Tiempo</button>
+    <p id="tiempoRestante"></p>
+    </div>
+
+</body>
+</html>
